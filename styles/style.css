@@ -61,36 +61,49 @@ nav ul li a {
     text-decoration: none;
     color: #424247;
     font-size: 18px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
-.menu-btn{
+.menu-btn {
     color: #131318;
     font-size: 1.2rem;
     cursor: pointer;
     display: none;
 }
 
-#click{
+#click {
     display: none;
 }
-.home{
+
+.home {
     color: #FF5400;
     font-size: 1rem;
     font-weight: 700;
-    
+
 }
+
 /* Navigation Style Section End */
 
 
 /* Main section start */
 
-main{
+main {
     max-width: 1250px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
-.banner-img-description{
-    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+.banner-section {
+    height: 500px;
+    background-image:linear-gradient(to bottom, rgba(66, 65, 65, 0.52), rgba(14, 13, 13, 0.308)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.input-field{
+    display:flex;
+    justify-content: center;  
 }
