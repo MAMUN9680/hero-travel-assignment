@@ -134,6 +134,13 @@
     .why-choose-us-card-three{
         width: 100%;
     }
+
+    .discounts-offer-card-one{
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    }
     
 }
 

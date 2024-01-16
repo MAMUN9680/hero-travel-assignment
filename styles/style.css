@@ -14,11 +14,11 @@ body {
 
 /* Shared Style start */
 .btn-primary {
-    padding: 10px 50px;
+    padding: 10px 35px;
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    width: 200px;
+    width: 180px;
     color: #FFF;
 }
 
@@ -43,6 +43,11 @@ body {
     padding: 24px 0;
 }
 
+.choose-us-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 /* Shared Style End */
 
 /* Navigation Style Section Start */
@@ -257,8 +262,167 @@ main {
     padding: 32px 32px;
 }
 
-.choose-us-title {
-    color: #131318;
-    font-size: 24px;
-    font-weight: 800;
+
+
+
+/* Special Offer & Discount Offer  CSS Style First section Start */
+
+.deal-discounts-content {
+    text-align: center;
+    width: 80%;
+    align-items: center;
+    margin: 50px auto;
 }
+
+.discount-span {
+    color: purple;
+}
+
+
+.deal-discounts-offer-card {
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+
+.discounts-offer-card-one {
+    border: 2px solid tomato;
+    width: 600px;
+    height: 400px;
+    margin: 0 550px;
+    padding-left: 255px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    /* display: flex; */
+    padding: 50px 80px;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.icon {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fa-regular, .fa-solid, .fa-regular{
+    color: rgba(255, 84, 0, 1);
+}
+
+/* Special Offer & Discount Offer CSS Style First section End */
+
+
+/* Special Offer & Discount Offer  CSS Style Second section Start */
+
+.discount-span {
+    color: purple;
+}
+
+
+.deal-discounts-offer-card {
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.discounts-offer-card-one {
+    width: 600px;
+    height: 400px;
+    margin: 0 550px;
+    padding-left: 255px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    /* display: flex; */
+    padding: 50px 80px;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.icon {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fa-regular, .fa-solid, .fa-regular{
+    color: rgba(255, 84, 0, 1);
+}
+/* Special Offer & Discount Offer CSS Style Second section End */
+
+
+
+/* Special Offer & Discount Offer  CSS Style Thired section Start */
+.discount-span {
+    color: purple;
+}
+
+
+.deal-discounts-offer-card {
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 16px;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+.discounts-offer-card-one {
+    border: 2px solid tomato;
+    width: 600px;
+    height: 400px;
+    margin: 0 550px;
+    padding-left: 255px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    /* display: flex; */
+    padding: 50px 80px;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.icon {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fa-regular, .fa-solid, .fa-regular{
+    color: rgba(255, 84, 0, 1);
+}
+/* Special Offer & Discount Offer CSS Style thired section End */
