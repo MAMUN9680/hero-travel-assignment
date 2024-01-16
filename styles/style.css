@@ -13,7 +13,7 @@ body {
 
 
 /* Shared Style start */
-.btn-primary{
+.btn-primary {
     padding: 10px 50px;
     border-radius: 8px;
     background: #FF5400;
@@ -32,14 +32,18 @@ body {
 
 .text-color-black {
     color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
     font-size: 1rem;
     font-weight: 400;
 }
 
-/* Shared Style start */
+.title-text {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 24px 0;
+}
 
-header {}
+/* Shared Style End */
 
 /* Navigation Style Section Start */
 nav {
@@ -158,65 +162,103 @@ main {
     gap: 10px;
 }
 
-
-
 /* popular-tour-container section */
-
-.popular-tour-container{
+.popular-tour-container {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     gap: 25px;
 }
 
-.title-text{
-    color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
-    padding: 24px 0;
-}
-
-#btn{
-   margin-top: 30px;
+#btn {
+    margin-top: 30px;
 }
 
 /* destination-container section start */
-.destination-title-content{
- margin: 0 auto;
- width: 800px;
- margin-top: 80px;
-text-align: center;
+.destination-title-content {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 80px;
+    text-align: center;
 }
 
-
-.destination-img-container > div > img{
+.destination-img-container>div>img {
     width: 100%;
     height: 350px;
     border-radius: 10px;
     gap: 10px;
     margin-bottom: 10px;
-
 }
 
-.destination-img-container > div{
-    gap: 10px;
-}
-
-.destination-img-one{
+.destination-img-one {
     display: flex;
     column-gap: 10px;
     margin-top: 50px;
 }
 
-
-.destination-img-two{
+.destination-img-two {
     display: flex;
     column-gap: 10px;
     width: 100%;
 }
 
-.destination-img-three{
+.destination-img-three {
     display: flex;
-    column-gap: 25px; 
+    column-gap: 25px;
     width: 100%;
+}
+
+/* why-choose-us-container style start */
+
+.why-choose-us-content-title {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.one-in-two-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.why-choose-us-card-one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-us-card-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-us-card-three {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 32px;
+}
+
+
+.one-in-two-card>div {
+    margin-left: 10px;
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 32px 32px;
+}
+
+.choose-us-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 }

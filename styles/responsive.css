@@ -84,7 +84,7 @@
     .popular-tour-container{
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 50px;
     }
     .popular-tour-content-img img{
         width: 100%;
@@ -120,6 +120,19 @@
         margin: 15px auto;
         align-items: center;
         row-gap: 20px;
+    }
+
+    /* why choose container: ; */
+    .why-choose-us-content-title{
+        width: 90%;
+    }
+
+    .one-in-two-card{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .why-choose-us-card-three{
+        width: 100%;
     }
     
 }
