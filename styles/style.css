@@ -12,7 +12,32 @@ body {
 }
 
 
+/* Shared Style start */
+.btn-primary{
+    padding: 10px 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 200px;
+    color: #FFF;
+}
 
+.text-color-white {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    text-align: center;
+}
+
+.text-color-black {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Shared Style start */
 
 header {}
 
@@ -93,17 +118,105 @@ main {
 }
 
 .banner-section {
-    height: 500px;
-    background-image:linear-gradient(to bottom, rgba(66, 65, 65, 0.52), rgba(14, 13, 13, 0.308)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(66, 65, 65, 0.52), rgba(14, 13, 13, 0.308)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     border-radius: 16px;
-    text-align: center;
     align-items: center;
+    display: grid;
 }
 
-.input-field{
-    display:flex;
-    justify-content: center;  
+.banner-img-description {
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.banner-img-description h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.input-field {
+    /* border: 2px solid red; */
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.input-text,
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+/* popular-tour-container section */
+
+.popular-tour-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.title-text{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 24px 0;
+}
+
+#btn{
+   margin-top: 30px;
+}
+
+/* destination-container section start */
+.destination-title-content{
+ margin: 0 auto;
+ width: 800px;
+ margin-top: 80px;
+text-align: center;
+}
+
+
+.destination-img-container > div > img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.destination-img-container > div{
+    gap: 10px;
+}
+
+.destination-img-one{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+
+
+.destination-img-two{
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.destination-img-three{
+    display: flex;
+    column-gap: 25px; 
+    width: 100%;
 }
