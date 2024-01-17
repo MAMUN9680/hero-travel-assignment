@@ -153,7 +153,7 @@ main {
 .input-field {
     /* border: 2px solid red; */
     width: 1000px;
-    height: 80px;
+    height: 100px;
     margin: 0 auto;
     padding: 16px;
     background: rgba(255, 255, 255, 0.2);
@@ -162,11 +162,19 @@ main {
 }
 
 .input-text,
-.input {
+.input{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
+
+.where-input{
+ padding: 5px 20px ;
+ border-radius: 8px;
+ /* width: 250px;
+ border: none; */
+}
+
 
 /* popular-tour-container section */
 .popular-tour-container {
@@ -439,11 +447,12 @@ li {
 }
 
 /* Special Offer & Discount Offer CSS Style thired section End */
-.pkg-btn{
+.pkg-btn {
     display: flex;
     justify-content: center;
     margin: 40px auto;
 }
+
 .all-packages-btn {
     width: 200px;
     height: 50px;
@@ -455,12 +464,120 @@ li {
 
 /* simple-perfect-place-container section */
 
-.simple-perfect-place-container{
+.simple-perfect-place-container {
     display: flex;
     justify-content: space-between;
 }
 
-.simple-perfect-place-content{
+.simple-perfect-place-content {
     width: 500px;
 }
 
+.simple-perfect-place-img {
+    position: relative;
+    margin-bottom: 60px;
+
+}
+
+.simple-perfect-place {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* NEWSLETTER & SAVE CONTAINER SECTION START */
+.newsletter-img-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.newsletter-form {
+    text-align: center;
+}
+
+.newsletter-form h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.newsletter-form h6 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-field-newsletter {
+    height: 300px;
+}
+
+.input-field-newsletter,
+input {
+    border: 2px solid purple;
+    display: grid;
+    max-width: 550px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 20px 30px;
+}
+
+.Subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 250px;
+    margin: 24px auto;
+    height: 52px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.travel-img {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.save-img-card {
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #fff;
+    text-align: center;
+    top: 45%;
+    left: 40%;
+    transform: rotate(-40deg) translateX(-20px) translateY(-70px);
+}
+
+.save-img-card h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.save-img-card h4 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+/* Footer Section Container */
+.footer-logo{
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

@@ -82,12 +82,13 @@
     }
 
     .popular-tour-container{
-    flex-direction: column;
-    align-items: center;
-    padding-left: 50px;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
     }
     .popular-tour-content-img img{
-        width: 100%;
+        width: 98%;
+        margin: 0 auto;
     }
 
     /* Destination */
@@ -141,6 +142,42 @@
     margin: 0 auto;
     padding: 20px 30px;
     }
+
+    .deal-discounts-offer-card {
+        width: 95%;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+        /* background-image: url(../Images/Group\ 39.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        border-radius: 16px;
+        align-items: center;
+        display: grid;
+        margin-bottom: 20px; */
+    }
+    .simple-perfect-place-content {
+    width: 500px;
+    margin: 0 auto;
+    }
+
+    .simple-perfect-place-container {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    .simple-perfect-place-img img, .travel-img img{
+    margin: 20px 10px ;
+    width: 95%;
+    }
+
+.newsletter-img-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 }
 
