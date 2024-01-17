@@ -195,8 +195,8 @@ main {
     margin-top: 80px;
     text-align: center;
 }
-
 .destination-img-container>div>img {
+    flex-wrap: wrap;
     width: 100%;
     height: 350px;
     border-radius: 10px;
@@ -575,9 +575,43 @@ input {
 
 
 /* Footer Section Container */
-.footer-logo{
+footer{
+    background-color:rgba(19, 19, 24, 0.05);
+    
+}
+.footer-container{
     max-width: 1250px;
+    height: 500px;
+}
+
+.footer-container, .footer-logo{
+    margin: 0 auto;
+}
+.footer-logo{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.footer-logo-style{
+    color:#131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-content{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    margin: 25px auto;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   margin-bottom: 400px;
+   border-bottom: 2px solid rgba(19, 19, 24, 0.10);;
+   padding-top: 10px;
 }
