@@ -452,3 +452,15 @@ li {
     border: 0;
     color: #FFF;
 }
+
+/* simple-perfect-place-container section */
+
+.simple-perfect-place-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple-perfect-place-content{
+    width: 500px;
+}
+
