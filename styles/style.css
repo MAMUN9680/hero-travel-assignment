@@ -18,7 +18,7 @@ body {
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    width: 180px;
+    /* width: 180px; */
     color: #FFF;
 }
 
@@ -48,6 +48,7 @@ body {
     font-size: 24px;
     font-weight: 800;
 }
+
 /* Shared Style End */
 
 /* Navigation Style Section Start */
@@ -308,7 +309,7 @@ main {
     gap: 20px;
 }
 
-li{
+li {
     list-style: none;
     display: inline-block;
     padding: 5px 10px;
@@ -320,7 +321,9 @@ li{
     font-weight: 400;
 }
 
-.fa-regular, .fa-solid, .fa-regular{
+.fa-regular,
+.fa-solid,
+.fa-regular {
     color: rgba(255, 84, 0, 1);
 }
 
@@ -361,7 +364,7 @@ li{
     gap: 20px;
 }
 
-li{
+li {
     list-style: none;
     display: inline-block;
     padding: 5px 10px;
@@ -373,9 +376,12 @@ li{
     font-weight: 400;
 }
 
-.fa-regular, .fa-solid, .fa-regular{
+.fa-regular,
+.fa-solid,
+.fa-regular {
     color: rgba(255, 84, 0, 1);
 }
+
 /* Special Offer & Discount Offer CSS Style Second section End */
 
 
@@ -398,6 +404,7 @@ li{
     display: grid;
     margin-bottom: 20px;
 }
+
 .discounts-offer-card-one {
     border: 2px solid tomato;
     width: 600px;
@@ -412,17 +419,36 @@ li{
     padding: 50px 80px;
     gap: 20px;
 }
-li{
+
+li {
     list-style: none;
     display: inline-block;
     padding: 5px 10px;
 }
+
 .icon {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
 }
-.fa-regular, .fa-solid, .fa-regular{
+
+.fa-regular,
+.fa-solid,
+.fa-regular {
     color: rgba(255, 84, 0, 1);
 }
+
 /* Special Offer & Discount Offer CSS Style thired section End */
+.pkg-btn{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+.all-packages-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+}
